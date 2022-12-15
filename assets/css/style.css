@@ -1,0 +1,156 @@
+
+/* GLobal HTML */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family:'Arial Narrow Bold', sans-serif;
+    margin: 0;
+  }
+  
+  main {
+    display: flex;
+    /* Forces elements to the next line if they don't fit */
+    flex-wrap: wrap;
+    margin-top: 2%;
+  }
+  
+
+  /* Mobile Screen */
+@media only screen and (max-width: 500px) {
+  .display-desktop {
+    display: none;
+  }
+
+  .display-mobile {
+    display: block;
+  }
+
+  .flex-column-mobile {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+  /* Header Styles */
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #0d7be2;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+
+  }
+ 
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+  }
+  
+  nav a {
+    color: #b9c6ae;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+.nav-buttons {
+  padding: 10px;
+  background: rgb(255, 255, 255);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  color: rgb(68, 99, 202);
+  width: 150px;
+  border-radius: 10px;
+  justify-content: space-between;
+  cursor: pointer;
+  border: none;
+  margin-right: 10px;
+  font-weight: bold;
+  transition: background-color .15s;
+}
+
+.nav-buttons:hover {
+  background-color: rgb(167, 159, 159);
+}
+
+.nav-buttons:active {
+  opacity: .7;
+}
+
+.card {
+    flex: 1 0 0;
+    padding: 10px;
+    border-style:ridge;
+    border-width: 10;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    align-items: center;
+    margin-left: 20px;
+    text-align: center;
+    
+    
+
+  }
+.card header {
+    padding: 10px;
+    background: #0d7be2;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2px;
+    font-weight: bold
+  
+  }
+  
+  .card img {
+    width: 100%;
+    min-width: 400px;
+  }
+  
+  .card:hover{
+    background-color: rgb(150, 143, 143);
+  }
+
+  .About-me{
+    flex: 1 0 0;
+    padding: 10px;
+    width: 40px;
+    text-align: left;
+    border-style: ridge;
+  }
+
+  .About-me{
+    flex: 1 0 0;
+    padding: 10px;
+    width: 40px;
+    text-align: left;
+    border-style: ridge;
+  }
+  .About-me img{
+    width: 20%;
+    min-width: 200px;
+    margin-left: 800;
+  }
+
+  .Contact-me{
+    flex: 1 0 0;
+    padding: 10px;
+    width: 40px;
+    text-align: left;
+  }
+  .Contact-me img{
+    width: 20%;
+    min-width: 200px;
+    margin-left: 800;
+  }
+
+  .Title.Logo.front{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    color: aquamarine;
+  }
+ 
